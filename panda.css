@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Banner Section */
+#banner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 1100px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Contact Address Section */
+.section-contact {
+    background-color: #ffeb3b;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    background-color: #ff5722;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Colorful Sections */
+.section-about {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.section-roadmap {
+    background-color: #009688;
+    color: #070214;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.phase-box {
+    background-color: #ffe0b2;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-audit {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.section-whitepaper {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.section-buy {
+    background-color: #673ab7;
+    color: #fff;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.section-social {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.btn-download, .btn-buy {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn-buy {
+    background-color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
